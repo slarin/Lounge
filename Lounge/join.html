@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>the Lounge</title>
+    <script src="./js/script.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css"/>
+    <link href="./ fontawesome-free-5.0.10/ fontawesome-free-5.0.10/web-fonts-with-css/css/fontawesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/join.css" />
+ <meta name= "viewport" content= "width=device-width, initial-scale=1.0" >
+</head>
+
+<body>
+	<div class="row container-fluid">
+		<div class="bucket jumbotron">
+<!--<?php 				if(isset($_POST['submit'])){
+	if($_POST['pswrd2'] == $_POST['pswrd1']){
+  	$firstname = $_POST['firstname'];
+  	$surname = $_POST['surname'];
+  	$email = $_POST['email'];
+  	$username = $_POST['username'];
+  	$pswrd = $_POST['pswrd2'];
+  	$dispForm = false;
+  
+  					<div>
+  						<h1>Thank you!</h1>
+  						<h6>Your Request to Join the Lounge has been submitted and is under Review.</h6>
+  						<h6>We will contact you</h6>
+  					</div>
+  				}
+  				else($dispForm = true)
+	if($dispForm){
+?>
+-->
+			<div>
+				<img src="#" class="avatar" alt="Avatar">
+			<div class="container-fluid">
+			<br>
+			<br>
+			<form enctype="multipart/form-data" id="join-form" class="#" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+		<input type="file" name="avatar"><br><br>
+		<h5>Names:</h5> <t><input type= "text" name="firstname" placeholder="Firstname" required > <t><input type= "text" name="surname" placeholder="Surname" required ><br><br>
+		<h5>Email:</h5> <t><input type="email" name="email" placeholder="Email" required ><br><br>
+		<h5>Username:</h5> <t><input type="text" name="username" placeholder="James007" required ><br><br>
+		<h5>Password:</h5> <t><input type="password" name="pswrd1" required ><br><br>
+		<h5>Confirm Password:</h5> <t><input type="password" name="pswrd2" required ><br><br>
+		<input type="submit" value="Submit" name="submit">
+			</form>
+		</div>
+	</div>
+<!--
+<?php
+		}
+?> -->
+</body>

@@ -1,0 +1,63 @@
+@import "style.css";
+
+.bucket{
+	margin-top: 20px;
+	height: 90px;
+}
+.board{
+	display: flex;
+	width: 80%;
+	margin-top: 20px;
+	justify-content: space-between;
+	padding: 0px 20px 0px 90px;
+	height: 50px;
+	background-color: orange;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	height: 30px;
+	padding: 0px 30px 0px 90px;
+}
+#member-btn{
+	border-radius: 5px 5px 30px 30px;
+}
+#join-btn{
+	border-radius: 25px 25px 25px 25px;
+}
+
+@media(max-width: 710px){
+	.header{
+		padding: 0px 0px 0px 0px;
+		justify-content: space-around;
+		width: 95%;
+		height: 10px;
+	}
+	header h4{
+		font-size: 20px;
+	}
+	#favorites{
+		width: 10px;
+		margin: 20px 0px 0px -70px;
+		background-color: blue;
+	}
+	#recent{
+		width: 10px;
+		margin: 20px 0px 0px 0px;
+	}
+	.board{
+		justify-content: space-around;
+		width: 90%;
+	}
+	.board-item{
+		width: 60px;
+		margin-right: -70px;
+		background-color: brown;
+	}
+	.board-item-left{
+		width: 60px;
+		background-color: brown;
+		margin-left: -140px;
+	}
+}

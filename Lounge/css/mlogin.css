@@ -1,0 +1,4 @@
+@import "join.css";
+input[type=submit]{
+	background-color: purple;
+}
