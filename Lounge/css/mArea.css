@@ -1,0 +1,23 @@
+@import url("style.css"); 
+#container{
+	display:flex;
+	flex-direction:row;	
+}
+#main{
+	display:flex;
+	flex-direction:column;
+	width:62%;
+	background-color:yellow;
+	margin:5px;
+}
+#sidebar{
+	display:flex;
+	flex-direction:column;
+	width:33%;
+	background-color:green;
+	margin:5px;
+}
+.boards{
+	margin:2px;
+	background-color:orange;
+}

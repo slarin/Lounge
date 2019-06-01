@@ -1,30 +1,21 @@
-body{
-	background-image:url(../images/Image__1132-2017-04-23%201.jpg);
-}
 .bucket{
 	display: flex;
-	justify-content: center;
-	background-color:#EF5A5D;
+	justify-content:flex-end;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	height: 400px;
-	width: auto;
-	margin-top: -14px;
+	background-image:url(../images/lounge_background.jpg);
+	height:100vh;
+	width:96vw;
+	margin:0px;
 	/*position: relative;*/
 }
-#ice{
-	display: flex;
-	justify-content: space-around;
-	background-image:url(../images/Image__0629-2018-05-11.jpg);
-}
-#tumbler{
-	background-color: pink;
-	width: 600px;
-	margin: 30px 30px;
-}
+.bucket-img{height:85%;width:30%;margin:40px 120px 20px 0px;}
+
 .container-fluid{
-	height: 100%;
+	background-image:url(../images/P3IJy9JMsiU_Full.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 .btn-danger{
 	width: 105px;
@@ -33,11 +24,11 @@ body{
 
 #coaster{
 	margin-top: 40px;
-	background-color: yellow;
 	display: flex;
 	justify-content: space-between;
-	width: auto;
-	height: 300px;
+	width: 75vw;
+	height: 50vh;
+	margin-left:10%;
 }
 #member-div{
 	height: 135px;
@@ -59,6 +50,11 @@ body{
 	height: 100px;
 	width: 100px;
 }
+#member-btn:hover{
+	background-color:#7B05C0;
+	color:#FFFFFF;
+	border:1.5px solid #7B05C0;	
+}
 #join-btn{
 	background-color: green;
 	color: silver;
@@ -67,50 +63,55 @@ body{
 	height: 90px;
 	width: 90px;
 }
-@media(max-width: 710px){
+#join-btn:hover{
+	background-color:#36F941;
+	color:#FFFFFF;
+}
+.w3-select{
+	padding:9px 0;
+	width:100%;
+	border:none;
+	border-bottom:1px solid #ccc;
+}
+.a-footer{
+	display:flex;
+	flex-direction:row;
+	justify-content:flex-end;
+	background-color:#292727; /**/
+	margin:0px 50px 0px 50px;
+	border-radius:8px 8px 0px 0px;
+}
+.a-footer p{margin:3px;color:#000000;}
+
+@media(max-width: 770px){
 	#coaster{
 		justify-content: space-around;
-		margin-top: 30px;
+		height:25vh;
 	}
 	#member-div{
-		height: 110px;
-		width: 140px;
+		height: 60px;
+		width: 100px;
 		margin: 30px 0px 0px 10px;
 		padding: 5px 0px 0px 15px;
 	}
 	#member-btn{
-		height: 100px;
-		width: 100px;
+		height: 80px;
+		width: 70px;
 	}
 	#join-div{
-		height: 110px;
-		width: 140px;
+		height: 60px;
+		width: 100px;
 		margin: 30px 0px 0px 10px;
 		padding: 5px 0px 0px 15px;
 	}
 	#join-btn{
-		height: 100px;
-		width: 100px;
+		height: 80px;
+		width: 70px;
 	}
-	#tumbler{
-		width: 300px;
-		margin-top: 40px;
-		margin-bottom: 40px;
-		margin-left: -40px;
-	}
-	#ice{
-		justify-content: center;
-	}
-	#bucket{
-		border-bottom radius: 4px;
-	}
-	#sleight{
-		display: none;
-	}
+	.container-fluid{background-position:center;}
+	.bucket-img{width:42%;margin-right:70px;}
 }
-@media (min-width: 757px){
-	#tumbler{
-		margin-right:60px;
-	}
-	
+@media(max-width: 425px){
+	.bucket{background-position:center;}
+	.bucket-img{height:80%;width:63%;margin-right:20px;margin-top:60px;}
 }

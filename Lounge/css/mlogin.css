@@ -1,4 +1,20 @@
 @import "join.css";
+body{background-color:#000000;}
 input[type=submit]{
 	background-color: purple;
+}
+p a{
+	color:#3BE13F;
+	text-decoration:none;
+}
+.container-fluid{
+	background-image:url(../images/OxKFC5u0980_Full.jpg)!important;
+	background-size:cover;
+	height:62vh;
+	padding-top:150px;
+	margin-bottom:50px;
+}
+.a-footer{
+	margin-top:-20px;
+	z-index:1;
 }
